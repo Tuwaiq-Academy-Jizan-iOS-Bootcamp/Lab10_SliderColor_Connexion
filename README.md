@@ -13,6 +13,7 @@ You will build an app like the screenShot below.
 
 * Make a new Xcode app and name it : Slader Color
 * You need to make a view with the following elements : view for display the results (your final color), 3 sliders for change the red,green and bleu value, 3 switch button to change turn on/off the color state.  
+* You need to have a "Reset Button" to initialize your color (back to Black color).  
 
 To make a color, you need 4 informations. Red, Green, Blue and Alpha. Alpha is the opacity of the view.<br>
 So find the best way to change the background color of the view by using the 3 sliders. 
