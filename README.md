@@ -1,4 +1,4 @@
-# Lab10_SliderColor_Connexion
+# Lab09_SliderColor_Connexion
 
 ### Topics
 
