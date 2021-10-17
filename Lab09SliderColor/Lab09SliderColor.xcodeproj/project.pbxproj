@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE675595271C51000090636E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE675594271C51000090636E /* AppDelegate.swift */; };
+		EE675597271C51000090636E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE675596271C51000090636E /* SceneDelegate.swift */; };
+		EE675599271C51000090636E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE675598271C51000090636E /* ViewController.swift */; };
+		EE67559C271C51000090636E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE67559A271C51000090636E /* Main.storyboard */; };
+		EE67559E271C51040090636E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE67559D271C51040090636E /* Assets.xcassets */; };
+		EE6755A1271C51040090636E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE67559F271C51040090636E /* LaunchScreen.storyboard */; };
+		EE6755AC271C51040090636E /* Lab09SliderColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6755AB271C51040090636E /* Lab09SliderColorTests.swift */; };
+		EE6755B6271C51040090636E /* Lab09SliderColorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6755B5271C51040090636E /* Lab09SliderColorUITests.swift */; };
+		EE6755B8271C51040090636E /* Lab09SliderColorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6755B7271C51040090636E /* Lab09SliderColorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE6755A8271C51040090636E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE675589271C51000090636E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE675590271C51000090636E;
+			remoteInfo = Lab09SliderColor;
+		};
+		EE6755B2271C51040090636E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE675589271C51000090636E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE675590271C51000090636E;
+			remoteInfo = Lab09SliderColor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE675591271C51000090636E /* Lab09SliderColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab09SliderColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE675594271C51000090636E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE675596271C51000090636E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EE675598271C51000090636E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE67559B271C51000090636E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE67559D271C51040090636E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE6755A0271C51040090636E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE6755A2271C51040090636E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE6755A7271C51040090636E /* Lab09SliderColorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab09SliderColorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE6755AB271C51040090636E /* Lab09SliderColorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab09SliderColorTests.swift; sourceTree = "<group>"; };
+		EE6755B1271C51040090636E /* Lab09SliderColorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab09SliderColorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE6755B5271C51040090636E /* Lab09SliderColorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab09SliderColorUITests.swift; sourceTree = "<group>"; };
+		EE6755B7271C51040090636E /* Lab09SliderColorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab09SliderColorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE67558E271C51000090636E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6755A4271C51040090636E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6755AE271C51040090636E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE675588271C51000090636E = {
+			isa = PBXGroup;
+			children = (
+				EE675593271C51000090636E /* Lab09SliderColor */,
+				EE6755AA271C51040090636E /* Lab09SliderColorTests */,
+				EE6755B4271C51040090636E /* Lab09SliderColorUITests */,
+				EE675592271C51000090636E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE675592271C51000090636E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE675591271C51000090636E /* Lab09SliderColor.app */,
+				EE6755A7271C51040090636E /* Lab09SliderColorTests.xctest */,
+				EE6755B1271C51040090636E /* Lab09SliderColorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE675593271C51000090636E /* Lab09SliderColor */ = {
+			isa = PBXGroup;
+			children = (
+				EE675594271C51000090636E /* AppDelegate.swift */,
+				EE675596271C51000090636E /* SceneDelegate.swift */,
+				EE675598271C51000090636E /* ViewController.swift */,
+				EE67559A271C51000090636E /* Main.storyboard */,
+				EE67559D271C51040090636E /* Assets.xcassets */,
+				EE67559F271C51040090636E /* LaunchScreen.storyboard */,
+				EE6755A2271C51040090636E /* Info.plist */,
+			);
+			path = Lab09SliderColor;
+			sourceTree = "<group>";
+		};
+		EE6755AA271C51040090636E /* Lab09SliderColorTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE6755AB271C51040090636E /* Lab09SliderColorTests.swift */,
+			);
+			path = Lab09SliderColorTests;
+			sourceTree = "<group>";
+		};
+		EE6755B4271C51040090636E /* Lab09SliderColorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE6755B5271C51040090636E /* Lab09SliderColorUITests.swift */,
+				EE6755B7271C51040090636E /* Lab09SliderColorUITestsLaunchTests.swift */,
+			);
+			path = Lab09SliderColorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE675590271C51000090636E /* Lab09SliderColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE6755BB271C51040090636E /* Build configuration list for PBXNativeTarget "Lab09SliderColor" */;
+			buildPhases = (
+				EE67558D271C51000090636E /* Sources */,
+				EE67558E271C51000090636E /* Frameworks */,
+				EE67558F271C51000090636E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lab09SliderColor;
+			productName = Lab09SliderColor;
+			productReference = EE675591271C51000090636E /* Lab09SliderColor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE6755A6271C51040090636E /* Lab09SliderColorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE6755BE271C51040090636E /* Build configuration list for PBXNativeTarget "Lab09SliderColorTests" */;
+			buildPhases = (
+				EE6755A3271C51040090636E /* Sources */,
+				EE6755A4271C51040090636E /* Frameworks */,
+				EE6755A5271C51040090636E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE6755A9271C51040090636E /* PBXTargetDependency */,
+			);
+			name = Lab09SliderColorTests;
+			productName = Lab09SliderColorTests;
+			productReference = EE6755A7271C51040090636E /* Lab09SliderColorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE6755B0271C51040090636E /* Lab09SliderColorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE6755C1271C51040090636E /* Build configuration list for PBXNativeTarget "Lab09SliderColorUITests" */;
+			buildPhases = (
+				EE6755AD271C51040090636E /* Sources */,
+				EE6755AE271C51040090636E /* Frameworks */,
+				EE6755AF271C51040090636E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE6755B3271C51040090636E /* PBXTargetDependency */,
+			);
+			name = Lab09SliderColorUITests;
+			productName = Lab09SliderColorUITests;
+			productReference = EE6755B1271C51040090636E /* Lab09SliderColorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE675589271C51000090636E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					EE675590271C51000090636E = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					EE6755A6271C51040090636E = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = EE675590271C51000090636E;
+					};
+					EE6755B0271C51040090636E = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = EE675590271C51000090636E;
+					};
+				};
+			};
+			buildConfigurationList = EE67558C271C51000090636E /* Build configuration list for PBXProject "Lab09SliderColor" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE675588271C51000090636E;
+			productRefGroup = EE675592271C51000090636E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE675590271C51000090636E /* Lab09SliderColor */,
+				EE6755A6271C51040090636E /* Lab09SliderColorTests */,
+				EE6755B0271C51040090636E /* Lab09SliderColorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE67558F271C51000090636E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6755A1271C51040090636E /* LaunchScreen.storyboard in Resources */,
+				EE67559E271C51040090636E /* Assets.xcassets in Resources */,
+				EE67559C271C51000090636E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6755A5271C51040090636E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6755AF271C51040090636E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE67558D271C51000090636E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE675599271C51000090636E /* ViewController.swift in Sources */,
+				EE675595271C51000090636E /* AppDelegate.swift in Sources */,
+				EE675597271C51000090636E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6755A3271C51040090636E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6755AC271C51040090636E /* Lab09SliderColorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6755AD271C51040090636E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6755B8271C51040090636E /* Lab09SliderColorUITestsLaunchTests.swift in Sources */,
+				EE6755B6271C51040090636E /* Lab09SliderColorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE6755A9271C51040090636E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE675590271C51000090636E /* Lab09SliderColor */;
+			targetProxy = EE6755A8271C51040090636E /* PBXContainerItemProxy */;
+		};
+		EE6755B3271C51040090636E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE675590271C51000090636E /* Lab09SliderColor */;
+			targetProxy = EE6755B2271C51040090636E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE67559A271C51000090636E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE67559B271C51000090636E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE67559F271C51040090636E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE6755A0271C51040090636E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE6755B9271C51040090636E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE6755BA271C51040090636E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE6755BC271C51040090636E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lab09SliderColor/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = no.Lab09SliderColor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE6755BD271C51040090636E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lab09SliderColor/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = no.Lab09SliderColor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE6755BF271C51040090636E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = no.Lab09SliderColorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lab09SliderColor.app/Lab09SliderColor";
+			};
+			name = Debug;
+		};
+		EE6755C0271C51040090636E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = no.Lab09SliderColorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lab09SliderColor.app/Lab09SliderColor";
+			};
+			name = Release;
+		};
+		EE6755C2271C51040090636E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = no.Lab09SliderColorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lab09SliderColor;
+			};
+			name = Debug;
+		};
+		EE6755C3271C51040090636E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = no.Lab09SliderColorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lab09SliderColor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE67558C271C51000090636E /* Build configuration list for PBXProject "Lab09SliderColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE6755B9271C51040090636E /* Debug */,
+				EE6755BA271C51040090636E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE6755BB271C51040090636E /* Build configuration list for PBXNativeTarget "Lab09SliderColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE6755BC271C51040090636E /* Debug */,
+				EE6755BD271C51040090636E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE6755BE271C51040090636E /* Build configuration list for PBXNativeTarget "Lab09SliderColorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE6755BF271C51040090636E /* Debug */,
+				EE6755C0271C51040090636E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE6755C1271C51040090636E /* Build configuration list for PBXNativeTarget "Lab09SliderColorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE6755C2271C51040090636E /* Debug */,
+				EE6755C3271C51040090636E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE675589271C51000090636E /* Project object */;
+}
