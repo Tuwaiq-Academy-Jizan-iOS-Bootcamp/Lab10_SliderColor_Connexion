@@ -37,8 +37,18 @@ class ViewController: UIViewController {
     }
     
     @IBAction func button(_ sender: Any) {
-        let newColor = UIColor(red :0, green :0, blue :0, alpha: 1)
-        forView.backgroundColor = newColor
+//        let newColor = UIColor(red :0, green :0, blue :0, alpha: 1)
+//        forView.backgroundColor = newColor
+        
+        redSwitch.isOn = true
+        greenSwitch.isOn = true
+        blueeSwitch.isOn = true
+        sliderRed.isEnabled = true
+        sliderBlue.isEnabled = true
+        sliderGreen.isEnabled = true
+        sliderRed.value = 0
+        sliderBlue.value = 0
+        sliderGreen.value = 0
     }
     
     
