@@ -57,9 +57,9 @@ class ViewController: UIViewController {
         
     }
     @IBAction func reset(_ sender: UIButton) {
-        redSwiitch.isOn = false
-        greenSwitch.isOn = false
-        blueSwitch.isOn = false
+        redSwiitch.isOn = true
+        greenSwitch.isOn = true
+        blueSwitch.isOn = true
         
         redSlider.value = 0.0
         greenSlider.value = 0.0
