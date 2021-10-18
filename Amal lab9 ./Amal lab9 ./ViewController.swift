@@ -84,6 +84,9 @@ class ViewController: UIViewController {
         sliderRed.value = 0
         sliderGreen.value = 0
         SliderBlue.value = 0
+        switchRed.isOn = true
+        switchGreen.isOn = true
+        switchBlue.isOn = true
         
         
     }
