@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "DBCEE14D-E48B-48D4-B629-9E5D24BF2D54"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C6C69963-1435-4447-AF98-3966B5416EB6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "lab9/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "55EDBAF2-F812-4CAE-A02A-0A35FDBF03D4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "lab9/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "55EDBAF2-F812-4CAE-A02A-0A35FDBF03D4 - 7391e9b9b8c18233"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "lab9.ViewController.sliderColor.getter : Swift.Optional&lt;__C.UISlider&gt;"
+                  moduleName = "lab9"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/duaaageel/Desktop/tuwaiqAcademy/Lab09_SliderColor_Connexion/lab9/lab9/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "55EDBAF2-F812-4CAE-A02A-0A35FDBF03D4 - 6e01664d3a017caf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "lab9.ViewController.sliderColor.setter : Swift.Optional&lt;__C.UISlider&gt;"
+                  moduleName = "lab9"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/duaaageel/Desktop/tuwaiqAcademy/Lab09_SliderColor_Connexion/lab9/lab9/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "55EDBAF2-F812-4CAE-A02A-0A35FDBF03D4 - d306329d2fc6e880"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "lab9.ViewController.sliderColor.modify : Swift.Optional&lt;__C.UISlider&gt;"
+                  moduleName = "lab9"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/duaaageel/Desktop/tuwaiqAcademy/Lab09_SliderColor_Connexion/lab9/lab9/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "55EDBAF2-F812-4CAE-A02A-0A35FDBF03D4 - 95297931cf9c2836"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "lab9.ViewController.sliderColor.modify : Swift.Optional&lt;__C.UISlider&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "lab9"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/duaaageel/Desktop/tuwaiqAcademy/Lab09_SliderColor_Connexion/lab9/lab9/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "55EDBAF2-F812-4CAE-A02A-0A35FDBF03D4 - a9e76929f4185866"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "lab9.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; lab9.ViewController"
+                  moduleName = "lab9"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/duaaageel/Desktop/tuwaiqAcademy/Lab09_SliderColor_Connexion/lab9/lab9/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  uuid = "55EDBAF2-F812-4CAE-A02A-0A35FDBF03D4 - 6812e12e857a6061"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "lab9.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;lab9.ViewController&gt;"
+                  moduleName = "lab9"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/duaaageel/Desktop/tuwaiqAcademy/Lab09_SliderColor_Connexion/lab9/lab9/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "140">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
