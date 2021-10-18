@@ -34,18 +34,41 @@ class ViewController: UIViewController {
         if redC.isOn{
             red = CGFloat(redChange.value)
         }
+                else {
+                    red = 0.0
+        }
         if greenC.isOn {
            green = CGFloat(geenChange.value)
-    }
-       
+        } else {
+            green = 0.0
+        }
         if blueC.isOn {
             blue = CGFloat(blueChange.value)
+        }
+        else {
+            blue = 0.0
         }
     let color = UIColor(red: red, green: green, blue: blue, alpha: 1)
         colorView.backgroundColor = color
     }
     
-        
+    @IBAction func rS(_ sender: Any) {
+       changeColor()
+        redChange.value = 0
+
+    }
+    
+    @IBAction func gC(_ sender: Any) {
+        changeColor()
+        geenChange.value = 0
+
+    }
+    
+    @IBAction func bC(_ sender: Any) {
+        changeColor()
+        blueChange.value = 0
+
+    }
     @IBAction func reStart(_ sender: Any) {
         colorView.backgroundColor =
         
@@ -53,6 +76,9 @@ class ViewController: UIViewController {
         redChange.value = 0
         geenChange.value = 0
         blueChange.value = 0
+        redC.isOn = true
+        greenC.isOn = true
+        blueC.isOn = true
         //.black
     }
     
