@@ -22,14 +22,14 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="minimumTrackTintColor" systemColor="systemRedColor"/>
                                 <connections>
-                                    <action selector="sliderActiona:" destination="BYZ-38-t0r" eventType="valueChanged" id="OaY-Xg-dSU"/>
+                                    <action selector="sladirNEW1:" destination="BYZ-38-t0r" eventType="valueChanged" id="jEa-zb-94l"/>
                                 </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="bDr-Yf-fzB">
                                 <rect key="frame" x="148" y="508" width="226" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <action selector="sliderActionc:" destination="BYZ-38-t0r" eventType="valueChanged" id="daI-0i-xtM"/>
+                                    <action selector="sladirNEW1:" destination="BYZ-38-t0r" eventType="valueChanged" id="bis-r3-n8i"/>
                                 </connections>
                             </slider>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="q4W-T5-w7f">
@@ -70,11 +70,11 @@
                                 </connections>
                             </button>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="RkU-LS-6wI">
-                                <rect key="frame" x="148" y="435" width="226" height="30"/>
+                                <rect key="frame" x="129" y="433" width="226" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="minimumTrackTintColor" systemColor="systemGreenColor"/>
                                 <connections>
-                                    <action selector="sliderActionb:" destination="BYZ-38-t0r" eventType="valueChanged" id="ahg-BJ-QAr"/>
+                                    <action selector="sladirNEW1:" destination="BYZ-38-t0r" eventType="valueChanged" id="6uQ-6r-iNq"/>
                                 </connections>
                             </slider>
                         </subviews>

@@ -8,6 +8,9 @@
 import UIKit
 
 class ViewController: UIViewController {
+    var redValue = 0.0
+    var greenValue = 0.0
+    var blueValue = 0.0
     
     @IBOutlet weak var viewColor: UIView!
     
@@ -43,43 +46,57 @@ class ViewController: UIViewController {
         sliderColorblue.value = 0
     }
     
-    @IBAction func sliderActiona(_ sender: UISlider) {
-        
-        let redValue = CGFloat(sliderColor.value)
-        let greenValue = CGFloat(sliderColorgreen.value)
-        let blueValue = CGFloat(sliderColorblue.value)
+    
+    
+    
+    
+    @IBAction func sladirNEW1(_ sender: UISlider) {
+        updateColor()
+    }
+    
+func updateColor()
+    {
+        if redSwitch.isOn{
+            redValue = CGFloat(sliderColor.value)}
+        else{
+            redValue = 0.0
+            sliderColor.value = 0
+        }
+        if greenSwitch.isOn{
+            greenValue = CGFloat(sliderColorgreen.value)
+        }
+            else{
+                greenValue = 0.0
+                sliderColorgreen.value = 0
+            }
+            
+            if blueSwitch.isOn{
+                blueValue = CGFloat(sliderColorblue.value)
+            }
+            else
+            {
+                blueValue = 0.0
+                sliderColorblue.value = 0
+                
+            }
+       
+            greenValue = CGFloat(sliderColorgreen.value)
+        blueValue = CGFloat(sliderColorblue.value)
         viewColor.backgroundColor = UIColor(red: redValue, green: greenValue ,blue: blueValue, alpha: 1 )
     }
     
-    @IBAction func sliderActionb(_ sender: UISlider) {
-        let redValue = CGFloat(sliderColor.value)
-        let greenValue = CGFloat(sliderColorgreen.value)
-        let blueValue = CGFloat(sliderColorblue.value)
-        viewColor.backgroundColor = UIColor(red: redValue, green: greenValue ,blue: blueValue, alpha: 1 )
-        
-    }
-    
-    @IBAction func sliderActionc(_ sender: UISlider) {
-        let redValue = CGFloat(sliderColor.value)
-        let greenValue = CGFloat(sliderColorgreen.value)
-        let blueValue = CGFloat(sliderColorblue.value)
-        viewColor.backgroundColor = UIColor(red: redValue, green: greenValue ,blue: blueValue, alpha: 1 )
-        
-    }
     
     @IBAction func switcha(_ sender: UISwitch){
-    sliderColor.isEnabled = false
-    sliderColor.value = 0
+        updateColor()
+   
     }
     
     @IBAction func switchb(_ sender: UISwitch) {
-    sliderColor.isEnabled = false
-    sliderColor.value = 0
+   updateColor()
     }
     
     @IBAction func switchc(_ sender: UISwitch) {
-        sliderColor.isEnabled = false
-        sliderColor.value = 0
+        updateColor()
     }
     
 }
