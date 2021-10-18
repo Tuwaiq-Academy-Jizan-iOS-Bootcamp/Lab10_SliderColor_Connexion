@@ -57,19 +57,26 @@ class ViewController: UIViewController {
     }
     
     func updateColor() {
-        if redColor.isOn {
-            red = CGFloat(teachColor.value)
+        red = CGFloat(teachColor.value)
+        green = CGFloat(teachCol.value)
+        blue = CGFloat(teachColo.value)
+        
+        if redColor.isOn == false {
+            red = 0
         }
-        if greenColor.isOn {
-            green = CGFloat(teachCol.value)
+        if greenColor.isOn == false {
+            green = 0
         }
-        if blueColor.isOn {
-            green = CGFloat(teachColo.value)
+        if blueColor.isOn == false {
+            blue = 0
     }
         let color = UIColor(red: red, green: green, blue: blue, alpha: 1)
         
 viewInterface.backgroundColor = color
  }
     
+    @IBAction func myActionSwitch(_ sender: Any) {
+        updateColor()
+    }
 }
 
