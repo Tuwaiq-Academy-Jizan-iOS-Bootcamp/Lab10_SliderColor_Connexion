@@ -47,12 +47,12 @@ class ViewController: UIViewController {
         updateColor()
     }
     @IBAction func switchChange(_ sender: UISwitch) {
-        func updateControls() {
+        
             redSlider.isEnabled = redSwiitch.isOn
             greenSlider.isEnabled = greenSwitch.isOn
             blueSlider.isEnabled = blueSwitch.isOn
-            updateControls()
-        }
+           
+        
         updateColor()
         
     }
@@ -61,9 +61,9 @@ class ViewController: UIViewController {
         greenSwitch.isOn = false
         blueSwitch.isOn = false
         
-        redSlider.value = 0
-        greenSlider.value = 0
-        blueSlider.value = 0
+        redSlider.value = 0.0
+        greenSlider.value = 0.0
+        blueSlider.value = 0.0
         updateColor()
        
         }
