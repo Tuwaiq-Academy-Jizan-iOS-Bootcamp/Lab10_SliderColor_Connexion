@@ -1,12 +1,13 @@
 //
 //  AppDelegate.swift
-//  Lab-09
+//  slider
 //
-//  Created by Afrah Omar on 11/03/1443 AH.
+//  Created by Afrah Omar on 13/03/1443 AH.
 //
 
 import UIKit
-@UIApplicationMain
+
+@main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 

@@ -1,13 +1,13 @@
 //
-//  Lab_09UITestsLaunchTests.swift
-//  Lab-09UITests
+//  sliderUITestsLaunchTests.swift
+//  sliderUITests
 //
-//  Created by Afrah Omar on 11/03/1443 AH.
+//  Created by Afrah Omar on 13/03/1443 AH.
 //
 
 import XCTest
 
-class Lab_09UITestsLaunchTests: XCTestCase {
+class sliderUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

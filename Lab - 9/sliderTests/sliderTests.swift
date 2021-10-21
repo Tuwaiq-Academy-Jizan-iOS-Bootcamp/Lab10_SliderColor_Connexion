@@ -1,14 +1,14 @@
 //
-//  Lab_09Tests.swift
-//  Lab-09Tests
+//  sliderTests.swift
+//  sliderTests
 //
-//  Created by Afrah Omar on 11/03/1443 AH.
+//  Created by Afrah Omar on 13/03/1443 AH.
 //
 
 import XCTest
-@testable import Lab_09
+@testable import slider
 
-class Lab_09Tests: XCTestCase {
+class sliderTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
